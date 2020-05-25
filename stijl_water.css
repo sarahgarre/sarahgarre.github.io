@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+    font-family:"coming-soon",Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+    font-size:18px;
+    font-weight:normal;
+}
+
+ul#flaps {
+ list-style: none;
+ background: url(images/achtergrond.png) no-repeat 0 0;
+ position: relative;
+ width: 1600px;
+ height: 2560px;
+ margin: 0;
+ padding: 0;
+}
+ul#flaps li {
+ border: 1px solid #FFF;
+ position: absolute;
+}
+ul#flaps li a{
+ display: block;
+ height: 100%;
+ text-indent: -9000px;
+}
+ul#flaps li a:hover {
+ background: url(images/alleflapjes.png) no-repeat 0 0;
+}
+#drought {
+	vertical-align: middle;
+	text-align: center;
+ 	width: 920px;
+ 	height: 330px;
+ 	top: 20px;
+ 	left: 330px;
+}
+ul#flaps li#drought a:hover {
+ background-position: -330px -20px;
+}
+#water-storage {
+vertical-align: middle;
+text-align: center;
+ width: 800px;
+ height: 200px;
+ top: 390px;
+ left: 20px;
+}
+ul#flaps li#water-storage a:hover {
+ background-position: -20px -390px;
+}
+#water-livestock {
+ width: 310px;
+ height: 180px;
+ top: 530px;
+ left: 1050px;
+} 
+#water-sources {
+ width: 250px;
+ height: 990px;
+ top: 950px;
+ left: 1320px;
+}
+#irrigation-efficiency {
+ width: 470px;
+ height: 180px;
+ top: 730px;
+ left: 1100px;
+} 
+#irrigation-scheduling {
+ width: 300px;
+ height: 260px;
+ top: 950px;
+ left: 990px;
+} 
+#cropping-systems {
+ width: 450px;
+ height: 750px;
+ top: 730px;
+ left: 432px;
+}
+#drainage {
+ width: 390px;
+ height: 390px;
+ top: 960px;
+ left: 20px;
+}
+#water-footprint {
+ width: 400px;
+ height: 350px;
+ top: 600px;
+ left: 20px;
+}
