@@ -32,7 +32,7 @@ ul#flaps li a:hover {
 ul#flaps li a:hover span {
  display: block;
  padding: 5px;
- width: 450px;
+ width: 350px;
  background: #000;
  position: relative;
  top: 100%;
@@ -90,21 +90,39 @@ ul#flaps li#water-storage a:hover {
 } 
 #cropping-systems {
  width: 450px;
- height: 750px;
- top: 730px;
+ height: 550px;
+ top: 1000px;
+ left: 432px;
+}
+#new-crops {
+ width: 450px;
+ height: 350px;
+ top: 600px;
  left: 432px;
 }
 #drainage {
  width: 390px;
  height: 390px;
- top: 960px;
+ top: 1100px;
  left: 20px;
 }
 #water-footprint {
  width: 400px;
- height: 350px;
- top: 600px;
+ height: 450px;
+ top: 615px;
  left: 20px;
+}
+#soil-management {
+ width: 350px;
+ height: 350px;
+ top: 1280px;
+ left: 940px;
+}
+#groundwater {
+ width: 700px;
+ height: 500px;
+ top: 1900px;
+ left: 440px;
 }
 
 ul#flaps li a span {
@@ -115,22 +133,3 @@ ul#flaps li a:hover span {
  display: block;
 }
 
-<ul id="flaps">
-    <li id="drought">
-        <a href="https://www.wri.org/blog/2019/08/17-countries-home-one-quarter-world-population-face-extremely-high-water-stressa">
-            <span>
-                <strong>Waterstress index</strong>
-                Belgie # 23
-            </span>
-        </a>
-    </li>
-    <li id="water storage">
-     <a href="">
-            <span>
-                <strong>South America</strong>
-                Population: 385,742,554
-            </span>
-        </a>
-    </li>
-   
-</ul>
