@@ -23,11 +23,25 @@ ul#flaps li {
 ul#flaps li a{
  display: block;
  height: 100%;
- text-indent: -9000px;
+text-decoration: none;
 }
 ul#flaps li a:hover {
  background: url(images/alleflapjes.png) no-repeat 0 0;
 }
+
+ul#flaps li a:hover span {
+ display: block;
+ padding: 5px;
+ width: 450px;
+ background: #000;
+ position: relative;
+ top: 100%;
+ font: 14px Arial, Helvetica, sans-serif;
+ opacity: .75;
+ filter:alpha(opacity=75);
+ color: #FFF;
+}
+
 #drought {
 	vertical-align: middle;
 	text-align: center;
@@ -48,13 +62,13 @@ text-align: center;
  left: 20px;
 }
 ul#flaps li#water-storage a:hover {
- background-position: -20px -390px;
+ background-position: -20px -395px;
 }
 #water-livestock {
- width: 310px;
- height: 180px;
- top: 530px;
- left: 1050px;
+ width: 450px;
+ height: 250px;
+ top: 460px;
+ left: 950px;
 } 
 #water-sources {
  width: 250px;
@@ -69,10 +83,10 @@ ul#flaps li#water-storage a:hover {
  left: 1100px;
 } 
 #irrigation-scheduling {
- width: 300px;
+ width: 350px;
  height: 260px;
  top: 950px;
- left: 990px;
+ left: 940px;
 } 
 #cropping-systems {
  width: 450px;
@@ -92,3 +106,31 @@ ul#flaps li#water-storage a:hover {
  top: 600px;
  left: 20px;
 }
+
+ul#flaps li a span {
+ display: none;
+}
+ 
+ul#flaps li a:hover span {
+ display: block;
+}
+
+<ul id="flaps">
+    <li id="drought">
+        <a href="https://www.wri.org/blog/2019/08/17-countries-home-one-quarter-world-population-face-extremely-high-water-stressa">
+            <span>
+                <strong>Waterstress index</strong>
+                Belgie # 23
+            </span>
+        </a>
+    </li>
+    <li id="water storage">
+     <a href="">
+            <span>
+                <strong>South America</strong>
+                Population: 385,742,554
+            </span>
+        </a>
+    </li>
+   
+</ul>
