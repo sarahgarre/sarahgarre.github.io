@@ -17,10 +17,23 @@ ul#flaps {
  margin: 0;
  padding: 0;
 }
+ul#flaps-content {
+ list-style: none;
+ position: relative;
+ width: 1600px;
+ height: 2560px;
+ margin: 5;
+ padding: 0;
+}
+
 ul#flaps li {
  border: 1px dashed#000;
  position: absolute;
 }
+ul#flaps-content li {
+ position: absolute;
+}
+
 ul#flaps li a{
  display: block;
  height: 100%;
@@ -82,6 +95,9 @@ ul#flaps li#water-livestock a:hover {
  top: 950px;
  left: 1320px;
 }
+ul#flaps li#water-sources a:hover {
+ background-position: -1320px -950px;
+}
 #irrigation-efficiency {
  width: 470px;
  height: 180px;
@@ -135,6 +151,12 @@ ul#flaps li#irrigation-scheduling a:hover {
  height: 500px;
  top: 1900px;
  left: 440px;
+}
+#water-footprint {
+ width: 370px;
+ height: 370px;
+ top: 1600px;
+ left: 20px;
 }
 
 ul#flaps li a span {
