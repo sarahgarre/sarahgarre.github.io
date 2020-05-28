@@ -7,6 +7,7 @@ body
     font-weight:normal;
 }
 
+/* Eerst 2 soorten flapjes definiëren: kennis en acties */
 ul#flaps {
  list-style: none;
  background: url(images/achtergrond.png) no-repeat 0 0;
@@ -17,7 +18,7 @@ ul#flaps {
  padding: 0;
 }
 ul#flaps li {
- border: 1px solid #FFF;
+ border: 1px dashed#FFF;
  position: absolute;
 }
 ul#flaps li a{
@@ -42,6 +43,8 @@ ul#flaps li a:hover span {
  color: #FFF;
 }
 
+
+/* Positie en eigenschappen van elk flapje*/
 #drought {
 	vertical-align: middle;
 	text-align: center;
@@ -71,7 +74,7 @@ ul#flaps li#water-storage a:hover {
  left: 950px;
 } 
 ul#flaps li#water-livestock a:hover {
- background-position: -950px -460px;
+ background-position: -950px -465px;
 }
 #water-sources {
  width: 250px;
@@ -85,6 +88,9 @@ ul#flaps li#water-livestock a:hover {
  top: 730px;
  left: 1100px;
 } 
+ul#flaps li#irrigation-efficiency a:hover {
+ background-position: -1100px -730px;
+}
 #irrigation-scheduling {
  width: 350px;
  height: 260px;
@@ -109,7 +115,7 @@ ul#flaps li#water-livestock a:hover {
  top: 1120px;
  left: 20px;
 }
-#water-footprint {
+#water-reuse {
  width: 400px;
  height: 450px;
  top: 635px;
