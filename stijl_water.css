@@ -123,7 +123,7 @@ ul#flaps li#irrigation-scheduling a:hover {
  left: 432px;
 }
 ul#flaps li#cropping-systems a:hover {
- background-position: -432px -1000px;
+ background-position: -432px -1005px;
 }
 #new-crops {
  width: 450px;
@@ -162,10 +162,13 @@ ul#flaps li#groundwater a:hover {
  background-position: -470px -1750px;
 }
 #water-footprint {
- width: 370px;
- height: 370px;
+ width: 350px;
+ height: 385px;
  top: 1580px;
- left: 20px;
+ left: 40px;
+}
+ul#flaps li#water-footprint a:hover {
+ background-position: -65px -1580px;
 }
 
 #soil-management {
@@ -177,6 +180,28 @@ ul#flaps li#groundwater a:hover {
 ul#flaps li#soil-management a:hover {
 	background-position: -920px -1250px;
 }
+
+#weetjeWIG {
+ width: 580px;
+ height: 140px;
+ top: 310px;
+ left: 1000px;
+}
+ul#flaps li#weetjeWIG a:hover {
+	background-position: -1000px -310px;
+}
+
+
+#weetjeIWF {
+ width: 900px;
+ height: 100px;
+ top: 2350px;
+ left: 655px;
+}
+ul#flaps li#weetjeIWF a:hover {
+	background-position: -655px -2350px;
+}
+
 	
 ul#flaps li a span {
  display: none;
