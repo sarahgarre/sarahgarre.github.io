@@ -27,7 +27,7 @@ ul#flaps-content {
 }
 
 ul#flaps li {
- border: 1px dashed#000;
+ border: 1px #000;
  position: absolute;
 }
 ul#flaps-content li {
