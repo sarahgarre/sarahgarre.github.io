@@ -27,7 +27,7 @@ ul#flaps-content {
 }
 
 ul#flaps li {
- border: 1px #000;
+ border: 1px dashed#000;
  position: absolute;
 }
 ul#flaps-content li {
@@ -189,8 +189,8 @@ ul#flaps li#soil-management a:hover {
 
 #weetjeWIG {
  width: 580px;
- height: 140px;
- top: 310px;
+ height: 90px;
+ top: 355px;
  left: 1000px;
 }
 ul#flaps li#weetjeWIG a:hover {
@@ -207,7 +207,24 @@ ul#flaps li#weetjeWIG a:hover {
 ul#flaps li#weetjeIWF a:hover {
 	background-position: -655px -2350px;
 }
-
+#weetjeSS {
+ width: 300px;
+ height: 255px;
+ top: 100px;
+ left: 20px;
+}
+ul#flaps li#weetjeSS a:hover {
+	background-position: -20px -100px;
+}
+#sarah-garre{
+ width: 420px;
+ height: 350px;
+ top: 2080px;
+ left: 20px;
+}
+ul#flaps li#sarah-garre a:hover {
+	background-position: -47px -2080px;
+}
 	
 ul#flaps li a span {
  display: none;
