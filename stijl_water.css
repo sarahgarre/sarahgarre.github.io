@@ -140,11 +140,17 @@ ul#flaps li#new-crops a:hover {
  top: 1120px;
  left: 20px;
 }
+ul#flaps li#drainage a:hover {
+ background-position: -20px -1120px;
+}
 #water-reuse {
  width: 400px;
  height: 450px;
  top: 635px;
  left: 20px;
+}
+ul#flaps li#water-reuse a:hover {
+ background-position: -20px -635px;
 }
 #soil-management {
  width: 350px;
