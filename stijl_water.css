@@ -62,12 +62,12 @@ ul#flaps li a:hover span {
 	vertical-align: middle;
 	text-align: center;
  	width: 920px;
- 	height: 330px;
- 	top: 20px;
+ 	height: 335px;
+ 	top: 15px;
  	left: 330px;
 }
 ul#flaps li#drought a:hover {
- background-position: -330px -20px;
+ background-position: -330px -15px;
 }
 #water-storage {
 vertical-align: middle;
@@ -160,12 +160,12 @@ ul#flaps li#water-reuse a:hover {
 }
 #groundwater {
  width: 800px;
- height: 500px;
+ height: 515px;
  top: 1750px;
  left: 440px;
 }
 ul#flaps li#groundwater a:hover {
- background-position: -470px -1750px;
+ background-position: -470px -1740px;
 }
 #water-footprint {
  width: 350px;
@@ -178,13 +178,13 @@ ul#flaps li#water-footprint a:hover {
 }
 
 #soil-management {
- width: 390px;
- height: 400px;
+ width: 400px;
+ height: 405px;
  top: 1250px;
  left: 910px;
 }
 ul#flaps li#soil-management a:hover {
-	background-position: -920px -1250px;
+	background-position: -920px -1245px;
 }
 
 #weetjeWIG {
@@ -218,12 +218,12 @@ ul#flaps li#weetjeSS a:hover {
 }
 #sarah-garre{
  width: 420px;
- height: 350px;
- top: 2080px;
+ height: 360px;
+ top: 2075px;
  left: 20px;
 }
 ul#flaps li#sarah-garre a:hover {
-	background-position: -47px -2080px;
+	background-position: -47px -2070px;
 }
 	
 ul#flaps li a span {
