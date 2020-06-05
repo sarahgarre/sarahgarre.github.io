@@ -157,6 +157,7 @@ blockquote cite {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
+background-color: rgba(0, 0, 0, 0.3);  
 }
 
 #more-content {
