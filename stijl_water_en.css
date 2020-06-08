@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+    font-family:"coming-soon",Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+    font-size:18px;
+    font-weight:normal;
+}
+
+/* Eerst 2 soorten flapjes definiëren: kennis en acties */
+ul#flaps {
+ list-style: none;
+ background: url(images/background.png) no-repeat 0 0;
+ position: relative;
+ width: 1600px;
+ height: 2560px;
+ margin: 0;
+ padding: 0;
+}
+ul#flaps-content {
+ list-style: none;
+ position: relative;
+ width: 1600px;
+ height: 2560px;
+ margin: 5;
+ padding: 0;
+}
+
+ul#flaps li {
+ border: 1px #000;
+ position: absolute;
+}
+ul#flaps-content li {
+ position: absolute;
+}
+
+ul#flaps li a{
+ display: block;
+ height: 100%;
+text-decoration: none;
+}
+ul#flaps li a:hover {
+ background: url(images/allflaps_en.png) no-repeat 0 0;
+}
+
+ul#flaps li a:hover span {
+ display: block;
+ padding: 5px;
+ width: 350px;
+ background: #000;
+ position: relative;
+ top: 100%;
+ font: 14px Arial, Helvetica, sans-serif;
+ opacity: .75;
+ filter:alpha(opacity=75);
+ color: #FFF;
+}
+
+
+/* Positie en eigenschappen van elk flapje*/
+#drought {
+	vertical-align: middle;
+	text-align: center;
+ 	width: 920px;
+ 	height: 335px;
+ 	top: 15px;
+ 	left: 330px;
+}
+ul#flaps li#drought a:hover {
+ background-position: -330px -15px;
+}
+#water-storage {
+vertical-align: middle;
+text-align: center;
+ width: 800px;
+ height: 200px;
+ top: 390px;
+ left: 20px;
+}
+ul#flaps li#water-storage a:hover {
+ background-position: -20px -395px;
+}
+#water-livestock {
+ width: 450px;
+ height: 280px;
+ top: 440px;
+ left: 950px;
+} 
+ul#flaps li#water-livestock a:hover {
+ background-position: -950px -440px;
+}
+#water-sources {
+ width: 250px;
+ height: 990px;
+ top: 950px;
+ left: 1320px;
+}
+ul#flaps li#water-sources a:hover {
+ background-position: -1320px -950px;
+}
+#irrigation-efficiency {
+ width: 470px;
+ height: 180px;
+ top: 730px;
+ left: 1100px;
+} 
+ul#flaps li#irrigation-efficiency a:hover {
+ background-position: -1100px -730px;
+}
+#irrigation-scheduling {
+ width: 375px;
+ height: 270px;
+ top: 950px;
+ left: 940px;
+} 
+ul#flaps li#irrigation-scheduling a:hover {
+ background-position: -940px -950px;
+}
+#cropping-systems {
+ width: 450px;
+ height: 550px;
+ top: 1000px;
+ left: 432px;
+}
+ul#flaps li#cropping-systems a:hover {
+ background-position: -432px -1005px;
+}
+#new-crops {
+ width: 450px;
+ height: 300px;
+ top: 650px;
+ left: 432px;
+}
+ul#flaps li#new-crops a:hover {
+ background-position: -432px -675px;
+}
+#drainage {
+ width: 390px;
+ height: 455px;
+ top: 1110px;
+ left: 20px;
+}
+ul#flaps li#drainage a:hover {
+ background-position: -20px -1110px;
+}
+#water-reuse {
+ width: 400px;
+ height: 450px;
+ top: 635px;
+ left: 20px;
+}
+ul#flaps li#water-reuse a:hover {
+ background-position: -20px -635px;
+}
+#soil-management {
+ width: 350px;
+ height: 350px;
+ top: 1280px;
+ left: 920px;
+}
+#groundwater {
+ width: 800px;
+ height: 515px;
+ top: 1750px;
+ left: 440px;
+}
+ul#flaps li#groundwater a:hover {
+ background-position: -470px -1740px;
+}
+#water-footprint {
+ width: 350px;
+ height: 385px;
+ top: 1590px;
+ left: 40px;
+}
+ul#flaps li#water-footprint a:hover {
+ background-position: -65px -1580px;
+}
+
+#soil-management {
+ width: 400px;
+ height: 405px;
+ top: 1250px;
+ left: 910px;
+}
+ul#flaps li#soil-management a:hover {
+	background-position: -920px -1245px;
+}
+
+#weetjeWIG {
+ width: 580px;
+ height: 90px;
+ top: 355px;
+ left: 1000px;
+}
+ul#flaps li#weetjeWIG a:hover {
+	background-position: -1000px -355px;
+}
+
+
+#weetjeIWF {
+ width: 900px;
+ height: 100px;
+ top: 2350px;
+ left: 655px;
+}
+ul#flaps li#weetjeIWF a:hover {
+	background-position: -655px -2350px;
+}
+#weetjeSS {
+ width: 300px;
+ height: 255px;
+ top: 100px;
+ left: 20px;
+}
+ul#flaps li#weetjeSS a:hover {
+	background-position: -20px -100px;
+}
+#sarah-garre{
+ width: 420px;
+ height: 360px;
+ top: 2075px;
+ left: 20px;
+}
+ul#flaps li#sarah-garre a:hover {
+	background-position: -47px -2070px;
+}
+	
+ul#flaps li a span {
+ display: none;
+}
+ 
+ul#flaps li a:hover span {
+ display: block;
+}
+
